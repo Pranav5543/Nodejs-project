@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "371df6b5-eb69-4afb-8287-672e8ae44e6b",
+		"name": "Create a New User",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42430580"
+	},
+	"item": [
+		{
+			"name": "New request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"full_name\": \"Jane Doe\",\r\n    \"mob_num\": \"9876543210\",\r\n    \"pan_num\": \"ABCDE1234F\",\r\n    \"manager_id\": \"89ba1d76-1199-4d04-8e99-3fd635354996\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/users/create_user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users",
+						"create_user"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

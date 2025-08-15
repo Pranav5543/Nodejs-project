@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "0516d218-36cc-4799-a969-35d86177c9bd",
+		"name": "Get an Active Manager ID",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42430580"
+	},
+	"item": [
+		{
+			"name": "New request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/users/get_managers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users",
+						"get_managers"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

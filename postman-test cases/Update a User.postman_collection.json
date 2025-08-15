@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "17b92845-cba2-41a1-ba0e-845113a34973",
+		"name": "Update a User",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42430580"
+	},
+	"item": [
+		{
+			"name": "New request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user_ids\": [\r\n        \"b34db7cf-91a3-4df2-bdee-6ecf76d8da69\"\r\n    ],\r\n    \"update_data\": {\r\n        \"full_name\": \"Jane Smith\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/users/update_user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users",
+						"update_user"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
